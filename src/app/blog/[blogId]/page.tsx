@@ -8,7 +8,7 @@ import SectionBlogHero from './SectionBlogHero';
 
 type Props = {
   params: { blogId: string };
-  searchParams: { [key: string]: string | string[] | undefined };
+  //searchParams: { [key: string]: string | string[] | undefined };
 };
 
 const getBlogData = async (id: string) => {
