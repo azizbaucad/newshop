@@ -3,7 +3,7 @@ import React from "react";
 import { footerBannerData } from "@/data/content";
 import Heading from "@/shared/Heading/Heading";
 
-import ButtonPrimary from "../Button/ButtonPrimary";
+
 
 const FooterBanner = () => {
   return (

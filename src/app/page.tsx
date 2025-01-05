@@ -1,6 +1,4 @@
 import React from 'react';
-
-/* Do it on the home page */
 import SectionHeader from './home/SectionHeader';
 import SectionBestDeals from './home/SectionBestDeals';
 import SectionBrands from './home/SectionBrands';
