@@ -1,10 +1,8 @@
-import Link from 'next/link';
 import React from 'react';
 
 import { footerData } from '@/data/content';
 
 import Logo from '../Logo/Logo';
-import FooterBanner from './FooterBanner';
 import Subscribe from './Subscribe';
 
 const Footer: React.FC = () => {
