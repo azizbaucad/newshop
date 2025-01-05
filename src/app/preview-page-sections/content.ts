@@ -73,9 +73,10 @@ export const mainPages = {
   description: `Take a look at the main pages included in the ${templateDetails.name}`,
   pages: [
     {
-      coverImage: preview,
-      pageName: 'Home',
-      href: '/home',
+      
+      coverImage: collection,
+      pageName: 'Products',
+      href: '/products', //replace /home
       CMS: false,
     },
     {
@@ -91,9 +92,9 @@ export const mainPages = {
       CMS: false,
     },
     {
-      coverImage: collection,
-      pageName: 'Products',
-      href: '/products',
+      coverImage: preview,
+      pageName: 'Home',
+      href: '/home',
       CMS: false,
     },
     {

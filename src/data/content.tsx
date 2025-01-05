@@ -46,43 +46,43 @@ export const topNavLinks: NavItemType[] = [
     name: 'Home',
     href: '/home',
   },
-  {
+ /*  {
     id: 'eerrrt',
     name: 'Blog',
     href: '/blog',
-  },
-  {
+  }, */
+  /* {
     id: 'eexct',
     name: 'Collections',
     href: '/products',
-  },
+  }, */
   {
     id: 'h6ii8g',
     name: 'Contact',
     href: '/contact',
   },
-  {
+  /* {
     id: 'h678ty',
     name: 'FAQ',
     href: '/faqs',
-  },
-  {
+  }, */
+  /* {
     id: 'h6i78g',
     name: 'Checkout',
     href: '/checkout',
-  },
-  {
+  }, */
+  /* {
     id: 'f678ty',
     name: 'Cart',
     href: '/cart',
-  },
+  }, */
 ];
 
 export const NavLinks: NavItemType[] = [
   {
     id: 'ee46t',
-    name: 'Home',
-    href: '/home',
+    name: 'Collection',
+    href: '/products',
   },
   {
     id: 'eerrrt',
@@ -91,8 +91,8 @@ export const NavLinks: NavItemType[] = [
   },
   {
     id: 'eexct',
-    name: 'Collection',
-    href: '/products',
+    name: 'Home',
+    href: '/home',
   },
 
   {
@@ -647,8 +647,8 @@ export const footerData = {
     {
       title: 'Main Pages',
       links: [
-        { href: '/home', name: 'Home' },
         { href: '/products', name: 'Collections' },
+        { href: '/home', name: 'Home' },
         { href: '/cart', name: 'Cart' },
         { href: '/checkout', name: 'Checkout' },
         { href: '/blog', name: 'Blogs' },

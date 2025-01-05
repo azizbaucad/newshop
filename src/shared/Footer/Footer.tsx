@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
   return (
     <div>
       <div className="container mb-10">
-        <FooterBanner />
+        {/* <FooterBanner /> */}
       </div>
 
       <div className="bg-black text-white">
@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             <Subscribe />
           </div>
 
-          <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
+{/*           <div className="grid grid-cols-2 gap-5 md:grid-cols-3">
             <div className="space-y-5">
               <h4 className="text-2xl font-medium">
                 {footerData.footerLinks[0]?.title}
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
