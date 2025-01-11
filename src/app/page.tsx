@@ -1,26 +1,11 @@
-import React from 'react';
-import SectionHeader from './home/SectionHeader';
-import SectionBestDeals from './home/SectionBestDeals';
-import SectionBrands from './home/SectionBrands';
-import SectionProducts from './home/SectionProducts';
+import React from "react";
+import PageProductHome from "./products/page";
 
 const page = () => {
   return (
     <div>
-      <div className="my-7">
-        <SectionHeader />
-      </div>
-
-      <div className="mb-32">
-        <SectionBestDeals />
-      </div>
-
-      <div className="mb-32">
-        <SectionProducts />
-      </div>
-
-      <div className="mb-32">
-        <SectionBrands />
+      <div className="">
+        <PageProductHome />
       </div>
     </div>
   );

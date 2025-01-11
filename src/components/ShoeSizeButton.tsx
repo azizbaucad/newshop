@@ -1,39 +1,17 @@
-'use client';
+"use client";
 
-import type { FC } from 'react';
-import React, { useEffect, useState } from 'react';
-import { FaCheckCircle } from 'react-icons/fa';
+import type { FC } from "react";
+import React from "react";
 
 interface ShoeSizeButtonProps {
-  disabled?: boolean;
   size: string;
 }
 
-const ShoeSizeButton: FC<ShoeSizeButtonProps> = ({ disabled, size }) => {
-  const [isDisabled, setIsDisabled] = useState(disabled);
-  const [selected, setSelected] = useState(false);
-
-  // random for demo
-  useEffect(() => {
-    setIsDisabled(Math.random() > 0.5);
-  }, []);
-
+const ShoeSizeButton: FC<ShoeSizeButtonProps> = ({ size }) => {
   return (
-    <button
-      type="button"
-      disabled={isDisabled}
-      onClick={() => setSelected(!selected)}
-      className={`relative w-full rounded-xl py-10 font-medium disabled:bg-gray disabled:text-neutral-500 ${
-        selected ? 'bg-primary text-white' : 'bg-gray text-black'
-      }`}
-    >
-      <FaCheckCircle
-        className={`absolute right-2 top-2 text-white ${
-          selected ? 'block' : 'hidden'
-        }`}
-      />
+    <span className="relative w-0 rounded-xl py-2 font-medium disabled:bg-gray disabled:text-neutral-500">
       {size}
-    </button>
+    </span>
   );
 };
 

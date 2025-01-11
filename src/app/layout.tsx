@@ -9,7 +9,7 @@ import Footer from '@/shared/Footer/Footer';
 import Loading from './loading';
 
 export const metadata: Metadata = {
-  title: 'Hotkicks Ecommerce Template',
+  title: 'MiniJaba',
   icons: [
     {
       rel: 'apple-touch-icon',
@@ -35,8 +35,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  // Layouts must accept a children prop.
-  // This will be populated with nested layouts or pages
   children,
 }: {
   children: React.ReactNode;

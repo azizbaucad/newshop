@@ -15,9 +15,9 @@ import signup from '@/images/preview/signup.jpg';
 import singleProduct from '@/images/preview/singleProduct.jpg';
 
 export const templateDetails = {
-  name: 'HotKicks Ecommerce NextJS Template',
+  name: 'MiniJaba Ecommerce NextJS Template',
   description:
-    'Presenting HotKicks Template, the ultimate ecommerce template in NextJS.',
+    'Presenting MiniJaba Template, the ultimate ecommerce template in NextJS.',
   screenshotsOne: [
     preview,
     collection,
